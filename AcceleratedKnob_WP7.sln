@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceleratedKnob_WP7", "AcceleratedKnob_WP7.csproj", "{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72197A4A-06CC-4620-9E4D-A5F74AFD57CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
