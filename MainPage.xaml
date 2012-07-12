@@ -1,11 +1,12 @@
-﻿<phone:PhoneApplicationPage 
-    x:Class="AcceleratedKnob_WP7.MainPage"
+﻿<phone:PhoneApplicationPage
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:AcceleratedKnob_WP7" 
+    x:Class="AcceleratedKnob_WP7.MainPage"
     mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -36,6 +37,7 @@
 					</Image>			
 				</Grid>
 			</Viewbox>			
+    	<local:AcceleratedKnob/>			
 	</Canvas>
  
     <!--Sample code showing usage of ApplicationBar-->
