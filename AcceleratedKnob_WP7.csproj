@@ -67,6 +67,9 @@
     <Compile Include="AcceleratedKnob.xaml.cs">
       <DependentUpon>AcceleratedKnob.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AcceleratedSliderControl.xaml.cs">
+      <DependentUpon>AcceleratedSliderControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -82,6 +85,10 @@
     </ApplicationDefinition>
     <Page Include="AcceleratedKnob.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AcceleratedSliderControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">

@@ -12,32 +12,13 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+    shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Canvas x:Name="LayoutRoot" Background="Transparent">
-        <Slider Canvas.Left="65" Canvas.Top="516" Width="343"/>
-			<Viewbox Height="125" Width="125">
-				<Grid Height="58" Width="58">
-					<Image x:Name="BaseImage" Source="Resources/base@2x.png" Stretch="Fill" />
-                    <Image x:Name="DarkImage" Source="Resources/dark@2x.png" Stretch="Fill" >
-                        <Image.Projection>
-                            <PlaneProjection x:Name="DarkImageProjection" RotationZ="1"/>
-                        </Image.Projection>
-                    </Image>
-                    <Image x:Name="LeftImage" Source="Resources/left@2x.png" Stretch="Fill" >
-						<Image.Projection>
-                            <PlaneProjection x:Name="LeftImageProjection" RotationZ="1"/>
-						</Image.Projection>
-					</Image>
-					<Image x:Name="RightImage" Source="Resources/right@2x.png" Stretch="Fill">
-						<Image.Projection>
-                            <PlaneProjection x:Name="RightImageProjection" RotationZ="1"/>
-						</Image.Projection>
-					</Image>			
-				</Grid>
-			</Viewbox>			
-    	<local:AcceleratedKnob/>			
+    	<local:AcceleratedSliderControl x:Name="Slider2" Canvas.Left="65" Canvas.Top="429" Width="343"/>
+    	<local:AcceleratedSliderControl x:Name="Slider1" Canvas.Left="65" Canvas.Top="341" Width="343"/>
+    	<local:AcceleratedKnob Canvas.Left="153" Canvas.Top="96" Height="170" Width="170"/>			
 	</Canvas>
  
     <!--Sample code showing usage of ApplicationBar-->
