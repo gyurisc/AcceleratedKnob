@@ -1,0 +1,32 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="AcceleratedKnob_WP7.AcceleratedKnob"
+	d:DesignWidth="125" d:DesignHeight="125">
+
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+		<Viewbox>
+			<Grid Height="58" Width="58">
+				<Image x:Name="BaseImage" Source="Resources/base@2x.png" Stretch="Fill" />
+				<Image x:Name="DarkImage" Source="Resources/dark@2x.png" Stretch="Fill" >
+					<Image.Projection>
+						<PlaneProjection x:Name="DarkImageProjection" RotationZ="1"/>
+					</Image.Projection>
+				</Image>
+				<Image x:Name="LeftImage" Source="Resources/left@2x.png" Stretch="Fill" >
+					<Image.Projection>
+						<PlaneProjection x:Name="LeftImageProjection" RotationZ="1"/>
+					</Image.Projection>
+				</Image>
+				<Image x:Name="RightImage" Source="Resources/right@2x.png" Stretch="Fill">
+					<Image.Projection>
+						<PlaneProjection x:Name="RightImageProjection" RotationZ="1"/>
+					</Image.Projection>
+				</Image>			
+			</Grid>
+		</Viewbox>
+	</Grid>
+</UserControl>

@@ -15,8 +15,7 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Canvas x:Name="LayoutRoot" Background="Transparent">
-    	<Rectangle Fill="#FFF4F4F5" Height="230" Canvas.Left="131" Stroke="Black" Canvas.Top="199" Width="230"/>
-			<Slider Canvas.Left="65" Canvas.Top="516" Width="343"/>
+        <Slider Canvas.Left="65" Canvas.Top="516" Width="343"/>
 			<Viewbox Height="125" Width="125">
 				<Grid Height="58" Width="58">
 					<Image x:Name="BaseImage" Source="Resources/base@2x.png" Stretch="Fill" />
