@@ -1,6 +1,26 @@
 AcceleratedKnob
 ===============
 
-Knob  for Windows Phone 7using accelerometer to volume slider as seen in iOS6
+AcceleratedKnob is an anisotropic image generator  for Windows Phone 7. It mimics the [metallic knob](http://www.youtube.com/watch?v=c9X7D87uJ7Q) that was found in iOS6.  
 
-Just testing.... here 
+The idea and implementation came from danielamitay's  [DAAnisotropicImage](https://github.com/danielamitay/DAAnisotropicImage) project on github. I just wanted to see if similar control can be built for Windows Phone 7.
+
+Installation 
+=======
+
+Contact 
+======
+ - [Personal Website](http://www.littlebigtomatoes.com/) 
+ - [Twitter](https://twitter.com/gyurisc)
+ - [Github](https://github.com/gyurisc) 
+ - [LinkedIn](http://www.linkedin.com/profile/view?id=10751444&trk=tab_pro)
+ 
+ If you like this project or you need some help, let me know!
+ 
+ 
+ License
+ =====
+ 
+ 
+ 
+ 
