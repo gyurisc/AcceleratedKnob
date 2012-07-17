@@ -1,6 +1,6 @@
 ##AcceleratedKnob
 
-AcceleratedKnob is an anisotropic image generator for Windows Phone 7. It mimics the [metallic knob](http://www.youtube.com/watch?v=c9X7D87uJ7Q) that is part of the iOS6 music app.  
+AcceleratedKnob is an anisotropic image generator for Windows Phone 7. It mimics the [metallic knob](http://www.youtube.com/watch?v=c9X7D87uJ7Q) that was first seen in the iOS6 music app.  
 
 The idea, the images and the logic came from danielamitay's [DAAnisotropicImage](https://github.com/danielamitay/DAAnisotropicImage) project on github. 
 
