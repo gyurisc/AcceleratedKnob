@@ -19,7 +19,8 @@ namespace AcceleratedKnob_WP7
         // rotations    
         public double darkImageRotation = 0;
         public double leftImageRotation = 0;
-        public double rightImageRotation = 0; 
+        public double rightImageRotation = 0;
+        static double rad2degree = 180 / Math.PI; 
 
 		public AcceleratedKnob()
 		{
@@ -51,10 +52,10 @@ namespace AcceleratedKnob_WP7
             leftImageRotation = (leftImageRotation * 0.7) + (v.Y - darkImageRotation) * 0.3;
             rightImageRotation = (rightImageRotation * 0.7) + (v.Z - leftImageRotation) * 0.3;
 
-
-            DarkImageProjection.RotationZ = darkImageRotation * 100;
-            RightImageProjection.RotationZ = rightImageRotation * 100;
-            LeftImageProjection.RotationZ = leftImageRotation * 100;
+            
+            DarkImageProjection.RotationZ = darkImageRotation * rad2degree;
+            RightImageProjection.RotationZ = rightImageRotation * rad2degree;
+            LeftImageProjection.RotationZ = leftImageRotation * rad2degree;
         }
 	}
 }
