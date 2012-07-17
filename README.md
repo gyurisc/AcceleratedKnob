@@ -13,13 +13,13 @@ Contact
  - [Personal Website](http://www.littlebigtomatoes.com/) 
  - [Twitter](https://twitter.com/gyurisc)
  - [Github](https://github.com/gyurisc) 
- - [LinkedIn](http://www.linkedin.com/profile/view?id=10751444&trk=tab_pro)
+ - [LinkedIn](http://www.linkedin.com/in/gyurisc)
  
  If you like this project or you need some help, let me know!
  
  
- License
- =====
+License
+=====
  
  
  
